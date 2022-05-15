@@ -31,6 +31,8 @@ function TodoList() {
     setTodos(removedArr);
   };
 
+  
+
   const completeTodo = id => {
     let updatedTodos = todos.map(todo => {
       if (todo.id === id) {
